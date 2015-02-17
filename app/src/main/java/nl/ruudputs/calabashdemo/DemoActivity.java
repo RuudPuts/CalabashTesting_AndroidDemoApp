@@ -71,9 +71,9 @@ public class DemoActivity extends Activity {
         public View onCreateView(LayoutInflater inflater, ViewGroup container,
                                  Bundle savedInstanceState) {
             View rootView = inflater.inflate(R.layout.fragment_input, container, false);
-            nextButton = (Button) rootView.findViewById(R.id.next_button);
+            nextButton = (Button) rootView.findViewById(R.id.input_next_button);
             nextButton.setOnClickListener(this);
-            textfield = (EditText) rootView.findViewById(R.id.textfield);
+            textfield = (EditText) rootView.findViewById(R.id.input_textfield);
             return rootView;
         }
 
@@ -99,7 +99,7 @@ public class DemoActivity extends Activity {
         public View onCreateView(LayoutInflater inflater, ViewGroup container,
                                  Bundle savedInstanceState) {
             View rootView = inflater.inflate(R.layout.fragment_result, container, false);
-            label = (TextView) rootView.findViewById(R.id.label);
+            label = (TextView) rootView.findViewById(R.id.result_label);
             label.setText(getArguments().getString("text"));
             return rootView;
         }

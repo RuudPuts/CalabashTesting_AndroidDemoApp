@@ -9,14 +9,14 @@
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/textfield"
+        android:id="@+id/input_textfield"
         android:capitalize="sentences"/>
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@id/textfield"
+        android:layout_below="@id/input_textfield"
         android:layout_centerHorizontal="true"
         android:text="Next"
-        android:id="@+id/next_button"/>
+        android:id="@+id/input_next_button"/>
 
 </RelativeLayout>
